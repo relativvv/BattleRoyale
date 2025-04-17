@@ -1,0 +1,21 @@
+name: BattleRoyale2
+version: ${project.version}
+main: de.relativv.battleroyale.main.BattleRoyale
+api-version: 1.13
+authors: [relativv]
+description: A BattleRoyale Minigame
+
+commands:
+  build:
+    description: Baumodus aktivieren/deaktivieren
+  credits:
+    description: Verwalte die Credits der Benutzer
+  setloc:
+    description: Setze Positionen wie die Lobby
+    aliases: [setlocation, setposition]
+  start:
+    description: Starte die Runde
+  stats:
+    description: Statistiken der User ansehen
+  top:
+    description: Teleportiere dich an die Oberfläche
